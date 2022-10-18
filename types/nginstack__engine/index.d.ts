@@ -1,7 +1,8 @@
-// Type definitions for @nginstack/engine 62.0
+// Type definitions for @nginstack/engine 65.0
 // Project: https://dev.azure.com/nginstack/nginstack
 // Definitions by: Renato Ribeiro <https://github.com/Henato>
 //                 Paulo Moreno <https://github.com/paulocmoreno>
+//                 Ricardo Cavalcante <https://github.com/oficial>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // Minimum TypeScript Version: 4.3
 /// <reference path="context/connection.d.ts" />
@@ -28,6 +29,7 @@
 /// <reference path="keys/UserStatus.d.ts" />
 /// <reference path="lib/array/argumentsToArray.d.ts" />
 /// <reference path="lib/array/arrayEquals.d.ts" />
+/// <reference path="lib/array/binaryStringToUint8Array.d.ts" />
 /// <reference path="lib/array/flatten.d.ts" />
 /// <reference path="lib/array/listToArray.d.ts" />
 /// <reference path="lib/array/remove.d.ts" />
@@ -35,6 +37,7 @@
 /// <reference path="lib/array/split.d.ts" />
 /// <reference path="lib/array/splitIntoChunks.d.ts" />
 /// <reference path="lib/barcode/Barcode.d.ts" />
+/// <reference path="lib/barcode/QRCode.d.ts" />
 /// <reference path="lib/classdef/AfterPersistEvent.d.ts" />
 /// <reference path="lib/classdef/BeforePersistEvent.d.ts" />
 /// <reference path="lib/classdef/ClassDef.d.ts" />
@@ -85,6 +88,7 @@
 /// <reference path="lib/crypto/DigestType.d.ts" />
 /// <reference path="lib/crypto/DSACryptoPKey.d.ts" />
 /// <reference path="lib/crypto/ECCryptoPKey.d.ts" />
+/// <reference path="lib/crypto/HMAC.d.ts" />
 /// <reference path="lib/crypto/MD5.d.ts" />
 /// <reference path="lib/crypto/RSACryptoPKey.d.ts" />
 /// <reference path="lib/crypto/SHA1.d.ts" />
@@ -182,6 +186,7 @@
 /// <reference path="lib/dom/Notation.d.ts" />
 /// <reference path="lib/dom/ProcessingInstruction.d.ts" />
 /// <reference path="lib/dom/Text.d.ts" />
+/// <reference path="lib/encoding/Base32.d.ts" />
 /// <reference path="lib/encoding/Base64.d.ts" />
 /// <reference path="lib/encoding/Base85.d.ts" />
 /// <reference path="lib/encoding/Encoder.d.ts" />
